@@ -1,0 +1,17 @@
+
+@function gradientWithOpacity($colors, $opacities) {
+    background-image: linear-gradient(
+      to right,
+      @each $color, $opacity in $colors, $opacities {
+        rgba($color, $opacity) 0%,
+        rgba($color, $opacity) 100%
+      }
+    );
+  }
+
+  .my-custom-gradient {
+    @apply gradientWithOpacity(
+      [primaryblue, secondaryblue],
+      [0.25, rgba(secondaryblue, 0.45), 0]
+    );
+  }
