@@ -13,7 +13,9 @@ module.exports = {
       primaryYellow: '#F7AF02',
       primaryPurple: '#3C4E76',
       black: '#000000',
-      white: '#FFFFFF'
+      white: '#FFFFFF',
+      whiteShadow: 'rgb(255 255 255 /15%)',
+      linearGray: 'rgb(217 217 317)'
     },
     extend: {
       fontFamily: {
