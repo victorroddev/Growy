@@ -1014,6 +1014,10 @@ video {
   text-decoration-thickness: 4px;
 }
 
+.decoration-2 {
+  text-decoration-thickness: 2px;
+}
+
 .underline-offset-2 {
   text-underline-offset: 2px;
 }
@@ -1071,6 +1075,14 @@ video {
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .md\:underline {
+    text-decoration-line: underline;
+  }
+
+  .md\:decoration-4 {
+    text-decoration-thickness: 4px;
   }
 }
 
