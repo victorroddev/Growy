@@ -12,14 +12,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body class="bg-black">
+<body class="bg-black bg-gradient-to-r from-primaryBlue75 via-secondaryBlue45 to-secondaryBlue0 w-auto h-auto">
     <!--Navbar-->
-    <div class="bg-gradient-to-r from-primaryBlue75 via-secondaryBlue45 to-secondaryBlue0 w-auto h-auto">
+    <div class=" w-auto h-auto">
         <nav>
             <div class="container mx-auto flex flex-col w-full">
-                <div class="flex p-5">
-                    <img src="/src/img/growy-logo.svg" alt="">
-                    <p class="font-extrabold text-2xl text-white font-headers relative top-7">Growy</p>
+                <div class="flex flex-row items-center p-5">
+                    <img src="/src/img/logomobile.png" alt="">
+                    <p class="font-extrabold text-xl text-white font-headers relative ">Growy</p>
                 </div>
             </div>
         </nav>
@@ -35,33 +35,41 @@
                 <p class="text-center text-xs md:text-lg lg:text-2xl font-paragraph font-light text-primaryYellow"><span class="font-semibold italic text-white underline decoration-4 decoration-secondaryBlue">Visualizamos</span> tu proyecto de desarrollo y <span class="font-semibold italic text-white underline decoration-4 decoration-secondaryBlue underline-offset-2">planeamos</span> tu presencia en línea.</p>
             </div>
         </div>
-        <section class="mt-44 w-11/12 mx-auto flex flex-col  justify-center items-center">
+        <section class="mt-12 mb-12 sm:mt-5 md:mt-5 lg:mt-8 xl:mt-40 2xl:mt-48  mx-auto flex flex-col justify-center items-center">
             <!--Subtitle Section-->
-            <div class="w-2/5 mx-auto">
-                <h1 class="text-primaryYellow md:text-3xl font-extrabold font-headers text-center">Logramos <span class="font-extrabold text-white underline decoration-4 decoration-secondaryBlue underline-offset-2">resultados</span> con nuestros colaboradores</h1>
+            <div class="w-56  mx-auto">
+                <h1 class="text-primaryYellow text-lg font-extrabold font-headers text-center">Logramos <span class="font-extrabold text-white underline decoration-4 decoration-secondaryBlue underline-offset-2">resultados</span> con nuestros colaboradores</h1>
             </div>
         <div class="grid grid-flow-col">
             <div>
             </div>
         </div>
         </section>
-        <div class="container mx-auto">
-            <div class="grid grid-cols-3">
-            <div class="flex flex-col items-center relative">
-                <div class="absolute xl:left-96 lg:72  l size-24 bg-secondaryBlue25 -rotate-22 flex justify-center items-center rounded-lg">
-                    <img src="img/mobile-phone.svg" class="size-16" alt="">
+        <div class="container mx-auto h-full">
+            <div class="grid grid-cols-2 grid-rows-4 h-full">
+                <!---Right items on desktop-->
+                <div class="flex flex-col items-end">
+                    <div class="relative size-24 shadow-lg shadow-whiteShadow bg-secondaryBlue25 -rotate-22 flex justify-center items-center rounded-lg ">
+                        <img src="img/mobile-phone.svg" class="size-16" alt="">
+                    </div>
+                    <div class="relative shadow-lg shadow-whiteShadow size-24 bg-secondaryBlue25 -rotate-18 flex justify-center items-center rounded-lg">
+                        <img src="img/costumer-icon.svg" class="size-16" alt="">
+                    </div>
+                    <div class="relative size-32 shadow-lg shadow-whiteShadow bg-secondaryBlue25 -rotate-36 flex justify-center items-center rounded-lg">
+                        <img src="img/help-icon.svg" class="size-20 rotate-36" alt="">
+                    </div>
+                    <p class="text-primaryYellow font-headers text-2xl">Investigación Estratégica</p>
                 </div>
-                <svg class="w-16 h-16">...</svg>
-                <svg class="w-32 h-20">...</svg>
-                <p>Sed do eiusmod tempor incididunt.</p>
-            </div>
-            <div class="flex items-center justify-center">
-                <div class="w-1 h-full bg-white relative">
-                <div class="absolute top-1/4 left-1/4 animate-pulse bg-blue-500 rounded-full w-2 h-2"></div>
-                <div class="absolute top-1/2 left-1/2 animate-pulse bg-blue-500 rounded-full w-2 h-2"></div>
-                <div class="absolute bottom-1/4 right-1/4 animate-pulse bg-blue-500 rounded-full w-2 h-2"></div>
+                <!--Center bar on desktop-->
+                <div class="flex relative justify-center order-1">
+                    <div class="w-1 h-full bg-white rounded-lg">
+                    </div>
                 </div>
-            </div>
+                <!--right bar on desktop-->
+                <div class="flex justify-start">
+                    <div class="bg-primaryYellow animate-pulse dbg-blue-500 rounded-full w-4 h-4"></div>
+                    <p class=" text-primaryYellow font-headers text-2xl relative">Atención personalizada</p>
+                </div>
             </div>
         </div>
     </div>
