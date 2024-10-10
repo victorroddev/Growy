@@ -16,6 +16,8 @@ module.exports = {
 
     colors: {
       primaryBlue: '#033D58',
+      primaryBlue60: '#033D58 / 60%',
+      primaryBlue75: '#033D58 / 75%',
       secondaryBlue: '#2BA5B2',
       primaryBlue75: 'rgb(3 61 88 / 75%)',
       secondaryBlue45: 'rgb(43 165 178 /45%)',
@@ -38,11 +40,14 @@ module.exports = {
       },
     rotate: {
       '12': '12deg',
+      '17': '17deg',
       '18': '18deg',
       '22': '22deg',
+      '29': '29deg',
       '31': '31deg',
       '36': '40deg',
-      '45': '45deg'
+      '45': '45deg',
+      '59': '59deg'
 
     }
     },

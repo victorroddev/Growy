@@ -12,9 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body class="bg-black bg-gradient-to-r from-primaryBlue75 via-secondaryBlue45 to-secondaryBlue0 w-auto h-auto">
+<body class="bg-black bg-gradient-to-b from-primaryBlue75 via-secondaryBlue45 to-secondaryBlue0 w-auto h-auto">
     <!--Navbar-->
-    <div class="w-auto h-auto">
+    <div class="w-full mx-auto h-auto">
         <nav>
             <div class="container  flex flex-col  w-full">
                 <div class="flex flex-row items-end  p-5">
@@ -42,50 +42,228 @@
             </div>
         </section>
             <!--Features Section | Mobile Version minmax-> 768px -->
-        <section>
-            <div class="container">
+        <section class="flex  justify-center md:hidden ">
+            <div class="container flex justify-center">
                 <div class="flex flex-col p-2">
                     <!--First-->
-                    <div class="ml-2 flex flex-row justify-start">
+                    <div class="ml-2 flex relative flex-row  justify-start">
                         <div class="flex flex-col items-center min-w-5">
                             <div class="w-5 h-5 bg-white rounded-full mt-4 min-h-5">
                                 <div class="w-5 h-5 rounded-full bg-white animate-ping"></div>
                             </div>
                             <div class="w-1 bg-white h-full"></div>
                         </div>
-                        <div class="ml-8 ">
-                            <h1 class="font-headers text-primaryYellow text-2xl">Atención personalizada</h1>
+                        <div class="ml-8 w-4/5 flex flex-col">
+                            <h1 class="font-headers text-primaryYellow text-2xl leading-7">Atención personalizada</h1>
                             <p class="font-paragraph text-white text-xs">Te escuchamos, te entendemos y creamos a partir de tus necesidades.</p>
                         </div>
                     </div>
 
                     <!--Second-->
-                    <div class="ml-2 flex flex-row justify-start">
+                    <div class="ml-2 flex flex-row justify-start ">
                         <div class="flex flex-col items-center min-w-5">
                             <div class="w-1 bg-white h-full"></div>
                         </div>
-                        <div class="ml-8 flex flex-row mt-8 mb-8 rounded-2xl ">
-                            <div class="flex items-center size-24 justify-center ">
-                                    <div class="flex relative top-11 items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 justify-center  rotate-18">
-                                        <div class="relative size-24 bg-none hover:bg-whiteShadow hover:blur hover:border-8 border-whiteShadow rounded-2xl order-1"></div>
-                                        <div class="absolute size-20 bg-secondaryBlue25  rounded-2xl flex items-center justify-center">
-                                        <img src="img/costumer-icon.svg" class="size-14" alt="">
+                        <div class="flex relative flex-col items-center mr-6 w-11/12 mx-auto mt-8 mb-8 rounded-2xl">
+                        <!--First Icon-->  
+                            <div class="flex items-center size-20 justify-center ">
+                                    <div class="flex relative items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 justify-center  -rotate-22">
+                                        <div class="relative size-14 bg-none hover:bg-whiteShadow hover:blur hover:border-8 border-whiteShadow rounded-2xl order-1">
                                         </div>
+                                        <div class="absolute size-16 bg-secondaryBlue25  rounded-2xl flex items-center justify-center shadow-lg shadow-whiteShadow">
+                                        <img src="img/mobile-phone.svg" class="size-10" alt="">
+                                    </div>
+                                </div>  
+                            </div>
+                        <!--Second Icon-->   
+                            <div class="flex items-center size-24 justify-center mr-28  ">
+                                <div class="flex relative items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 justify-center  -rotate-18">
+                                    <div class="relative size-24 bg-none hover:bg-whiteShadow hover:blur hover:border-8 border-whiteShadow rounded-2xl order-1">
+                                    </div>
+                                    <div class="absolute size-20 bg-secondaryBlue25  rounded-2xl flex items-center justify-center shadow-lg shadow-whiteShadow">
+                                    <img src="img/costumer-icon.svg" class="size-14" alt="">
                                 </div>
-                                    
-                                    
+                            </div>  
+                        </div>
+                        <!--Third Icon-->
+                            <div class="flex  items-center size-24 justify-center ml-32 -mt-8 ">
+                                <div class="flex relative items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 justify-center rotate-31">
+                                    <div class="relative size-24 bg-none hover:bg-whiteShadow hover:blur hover:border-8 border-whiteShadow rounded-2xl order-1">
+                                    </div>
+                                    <div class="absolute size-24 bg-secondaryBlue25  rounded-2xl flex items-center justify-center shadow-lg shadow-whiteShadow">
+                                    <img src="img/help-icon.svg" class="size-16" alt="">
+                                </div>
+                            </div>  
+                        </div> 
+                        </div>   
+                    </div>
+
+                    <!--Third-->
+                    <div class="ml-2 flex relative flex-row  justify-start">
+                        <div class="flex flex-col items-center min-w-5">
+                            <div class="w-1 bg-white h-1/2"></div>
+                            <div class="w-5 h-5 bg-white rounded-full min-h-5">
+                                <div class="w-5 h-5 rounded-full  bg-white animate-ping"></div>
                             </div>
-                            
-                            <div class="relative size-16 bg-secondaryBlue25 shadow-md hover:shadow-lg hover:shadow-whiteShadow hover:scale-105 shadow-whiteShadow rounded-lg flex items-center justify-center -rotate-22">
-                                <img src="img/mobile-phone.svg" class="size-10" alt="">
+                            <div class="w-1 bg-white h-full"></div>
+                        </div>
+                        <div class="ml-8 w-4/5 flex flex-col">
+                            <h1 class="font-headers text-primaryYellow text-2xl leading-7">Investigación Estratégica</h1>
+                            <p class="font-paragraph text-white text-xs">Diseñado para ayudar a escalar tu negocio, utilizando las mejores herramientas para mejorar la experiencia del usuario</p>
+                        </div>
+                    </div>
+                    
+                    <!--Fourth-->
+                    <div class="ml-2 flex flex-row justify-start ">
+                        <div class="flex flex-col items-center min-w-5">
+                            <div class="w-1 bg-white h-full"></div>
+                        </div>
+                        <div class="flex relative flex-col items-center mr-6 w-11/12 mx-auto mt-8 mb-8 rounded-2xl">
+                        <!--First Icon-->  
+                            <div class="flex items-center size-20 justify-center mr-16 ">
+                                    <div class="flex relative items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 justify-center  -rotate-12">
+                                        <div class="relative size-14 bg-none hover:bg-whiteShadow hover:blur hover:border-8 border-whiteShadow rounded-2xl order-1">
+                                        </div>
+                                        <div class="absolute size-16 bg-secondaryYellow  rounded-2xl flex items-center justify-center shadow-lg shadow-whiteShadow">
+                                        <img src="img/features-icon.svg" class="size-10" alt="">
+                                    </div>
+                                </div>  
                             </div>
-                            <div class="relative size-24 bg-secondaryBlue25 shadow-md hover:shadow-lg hover:shadow-whiteShadow hover:scale-105 shadow-whiteShadow rounded-lg flex items-center justify-center rotate-31">
-                                <img src="img/help-icon.svg" class="size-14" alt="">
+                        <!--Second Icon-->   
+                            <div class="flex items-center size-24 justify-center ml-36  ">
+                                <div class="flex relative items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 justify-center  -rotate-22">
+                                    <div class="relative size-24 bg-none hover:bg-whiteShadow hover:blur hover:border-8 border-whiteShadow rounded-2xl order-1">
+                                    </div>
+                                    <div class="absolute size-20 bg-secondaryYellow  rounded-2xl flex items-center justify-center shadow-lg shadow-whiteShadow">
+                                    <img src="img/group-icon.svg" class="size-14" alt="">
+                                </div>
+                            </div>  
+                        </div>
+                        <!--Third Icon-->
+                            <div class="flex  items-center size-24 justify-center mr-24">
+                                <div class="flex relative items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 justify-center -rotate-12">
+                                    <div class="relative size-24 bg-none hover:bg-whiteShadow hover:blur hover:border-8 border-whiteShadow rounded-2xl order-1">
+                                    </div>
+                                    <div class="absolute size-24 bg-secondaryYellow  rounded-2xl flex items-center justify-center shadow-lg shadow-whiteShadow">
+                                    <img src="img/search-icon.svg" class="size-16" alt="">
+                                </div>
+                            </div>  
+                        </div> 
+                        </div>   
+                    </div>
+
+                    <!--Fifth-->
+                    <div class="ml-2 flex relative flex-row  justify-start">
+                        <div class="flex flex-col items-center min-w-5">
+                            <div class="w-1 bg-white h-1/2"></div>
+                            <div class="w-5 h-5 bg-white rounded-full  min-h-5">
+                                <div class="w-5 h-5 rounded-full bg-white animate-ping"></div>
                             </div>
+                            <div class="w-1 bg-white h-full"></div>
+                        </div>
+                        <div class="ml-8 w-4/5 flex flex-col">
+                            <h1 class="font-headers text-primaryYellow text-2xl leading-7">Diseño Atractivo y Funcional</h1>
+                            <p class="font-paragraph text-white text-xs">Generamos un diseño que funcione para ti, utilizando las últimas tendencias en diseño y animación para que tu sitio esté a la vanguardia.</p>
                         </div>
                     </div>
 
+                    <!--Sixth-->
+                    <div class="ml-2 flex flex-row justify-start ">
+                        <div class="flex flex-col items-center min-w-5">
+                            <div class="w-1 bg-white h-full"></div>
+                        </div>
+                        <div class="flex relative flex-col items-center mr-6 w-11/12 mx-auto mt-8 mb-8 rounded-2xl">
+                        <!--First Icon-->  
+                            <div class="flex items-center size-20 justify-center ml-14">
+                                    <div class="flex relative items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 justify-center  -rotate-29">
+                                        <div class="relative size-14 bg-none hover:bg-whiteShadow hover:blur hover:border-8 border-whiteShadow rounded-2xl order-1">
+                                        </div>
+                                        <div class="absolute size-16 bg-primaryBlue75  rounded-2xl flex items-center justify-center shadow-lg shadow-whiteShadow">
+                                        <img src="img/pencils.svg" class="size-10" alt="">
+                                    </div>
+                                </div>  
+                            </div>
+                        <!--Second Icon-->   
+                            <div class="flex items-center size-24 justify-center mr-28  ">
+                                <div class="flex relative items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 justify-center  -rotate-18">
+                                    <div class="relative size-24 bg-none hover:bg-whiteShadow hover:blur hover:border-8 border-whiteShadow rounded-2xl order-1">
+                                    </div>
+                                    <div class="absolute size-20 bg-primaryBlue  rounded-2xl flex items-center justify-center shadow-lg shadow-whiteShadow">
+                                    <img src="img/pencil-icon.svg" class="size-14" alt="">
+                                </div>
+                            </div>  
+                        </div>
+                        <!--Third Icon-->
+                            <div class="flex  items-center size-24 justify-center ml-36 -mt-6 ">
+                                <div class="flex relative items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 justify-center -rotate-29">
+                                    <div class="relative size-24 bg-none hover:bg-whiteShadow hover:blur hover:border-8 border-whiteShadow rounded-2xl order-1">
+                                    </div>
+                                    <div class="absolute size-24 bg-primaryBlue75  rounded-2xl flex items-center justify-center shadow-lg shadow-whiteShadow">
+                                    <img src="img/page-icon.svg" class="size-16" alt="">
+                                </div>
+                            </div>  
+                        </div> 
+                        </div>   
+                    </div>
 
+                    <!--Seven-->
+                    <div class="ml-2 flex relative flex-row  justify-start">
+                        <div class="flex flex-col items-center min-w-5">
+                            <div class="w-1 bg-white h-1/2"></div>
+                            <div class="w-5 h-5 bg-white rounded-full min-h-5">
+                                <div class="w-5 h-5 rounded-full  bg-white animate-ping"></div>
+                            </div>
+                            <div class="w-1 bg-white h-full"></div>
+                        </div>
+                        <div class="ml-8 w-4/5 flex flex-col">
+                            <h1 class="font-headers text-primaryYellow text-2xl leading-7">Sitio Completamente Optimizado</h1>
+                            <p class="font-paragraph text-white text-xs">Diseñado para ayudar a escalar tu negocio, utilizando las mejores herramientas para mejorar la experiencia del usuario</p>
+                        </div>
+                    </div>
+                    
+                    <!--Eight-->
+                    <div class="ml-2 flex flex-row justify-start ">
+                        <div class="flex flex-col items-center min-w-5">
+                            <div class="w-1 bg-gradient-to-b from-white h-full"></div>
+                        </div>
+                        <div class="flex relative flex-col items-center mr-6 w-11/12 mx-auto mt-8 mb-8 rounded-2xl">
+                        <!--First Icon-->  
+                            <div class="flex items-center size-20 justify-center mr-24 ">
+                                    <div class="flex relative items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 justify-center  -rotate-22">
+                                        <div class="relative size-16 bg-none hover:bg-whiteShadow hover:blur hover:border-8 border-whiteShadow rounded-2xl order-1">
+                                        </div>
+                                        <div class="absolute size-20 bg-primaryBlue75  rounded-2xl flex items-center justify-center shadow-lg shadow-whiteShadow">
+                                        <img src="img/primero-sitio.svg" class="size-10" alt="">
+                                    </div>
+                                </div>  
+                            </div>
+                        <!--Second Icon-->   
+                            <div class="flex items-center size-28 justify-center ml-36  ">
+                                <div class="flex relative items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 justify-center  -rotate-29">
+                                    <div class="relative size-28 bg-none hover:bg-whiteShadow hover:blur hover:border-8 border-whiteShadow rounded-2xl order-1">
+                                    </div>
+                                    <div class="absolute size-24 bg-primaryBlue75  rounded-2xl flex items-center justify-center shadow-lg shadow-whiteShadow">
+                                    <img src="img/segundo-sitio.svg" class="size-14" alt="">
+                                </div>
+                            </div>  
+                        </div>
+                        <!--Third Icon-->
+                            <div class="flex  items-center size-24 justify-center mr-24">
+                                <div class="flex relative items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 justify-center -rotate-12">
+                                    <div class="relative size-28 bg-none hover:bg-whiteShadow hover:blur hover:border-8 border-whiteShadow rounded-2xl order-1">
+                                    </div>
+                                    <div class="absolute size-28 bg-primaryBlue75  rounded-2xl flex items-center justify-center shadow-lg shadow-whiteShadow">
+                                    <img src="img/tercero-sitio.svg" class="size-20" alt="">
+                                </div>
+                            </div>  
+                        </div> 
+                        </div>   
+                    </div>
+
+                    </div>
+                
+                
+                </div>
                 </div>
             </div>
         </section>
