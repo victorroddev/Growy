@@ -1473,6 +1473,10 @@ video {
     justify-content: flex-start;
   }
 
+  .md\:justify-end {
+    justify-content: flex-end;
+  }
+
   .md\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -1609,6 +1613,10 @@ video {
 @media (min-width: 1280px) {
   .xl\:w-1\/2 {
     width: 50%;
+  }
+
+  .xl\:w-\[60\%\] {
+    width: 60%;
   }
 
   .xl\:px-24 {
