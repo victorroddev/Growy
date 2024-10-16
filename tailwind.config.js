@@ -38,6 +38,9 @@ module.exports = {
         headers: ['Urbanist'],
         paragraph: ['Public Sans']
       },
+      backgroundImage: {
+        'section-pattern': "url('/src/img/first-background-mobile.png')"
+      },
     rotate: {
       '12': '12deg',
       '17': '17deg',
